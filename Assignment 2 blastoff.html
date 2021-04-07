@@ -1,0 +1,126 @@
+<!--Desiree Perez 
+    Assignment 2 
+    Launching your UAT Space Program HTML Document Tags
+    4/3/2021-->
+
+<!DOCTYPE html>
+<html>
+<!--head-->
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+    <!--title-->
+    <title>
+        UAT Space Program
+    </title>
+
+</head>
+
+<script>
+    /*this is
+    a multiline
+    comment*/
+</script>
+
+<!--body-->
+<body>
+    <!--Logo image-->
+    <img src="UATspaceLogo.jpg">
+
+    <!--big and bold-->
+    <h1>
+        UAT Space Program
+    </h1>
+    <!--paragraph tags-->
+    <p>
+        Test of Paragraph Tags
+    </p>
+
+    <script>
+        //document write function
+        document.write("Test of the document.write function");
+    </script>
+    <br>
+    <br>
+    <!--before countdown begins indicator-->
+    <p id="countDownTimer">Starting Count Down</p>
+    <br>
+    <!--creating button for countdown and button class-->
+    <button class="button" onclick="countDown();">Start</button><button class="button"> Stop</button>
+
+    <script>
+        // countdown function 10 - blastoff, 1 second increments
+        function countDown() {
+            var count = 10;
+            
+            //countdown 10
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 1000);
+
+            //countdown 9
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 2000);
+
+            //countdown 8
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 3000);
+
+            //countdown 7
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 4000);
+
+            //countdown 6
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 5000);
+
+            //countdown 5
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 6000);
+
+            //countdown 4
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 7000);
+
+            //countdown 3
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 8000);
+
+            //countdown 2
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 9000);
+
+            //countdown 1
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = count;
+                count = count - 1;
+            }, 10000);
+
+            //countdown blastoff!!!
+            setTimeout(function () {
+                document.getElementById("countDownTimer").innerHTML = "Blastoff!!!";
+                count = count - 1;
+            }, 11000);
+        }
+
+
+    </script>
+</body>
+
+</html>
